@@ -1,0 +1,43 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu-1 {
+    text-align: center;
+}
+
+.menu-1 > ul {
+    background-color: #dfdfdf;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.menu-1 > ul > li {
+    display: inline-block;
+}
+
+.menu-1 > ul > li > a {
+    padding: 10px;
+    display: block;
+}
+
+.menu-1 > ul > li:hover > a {
+    background-color: black;
+    color: white;
+}
